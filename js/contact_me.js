@@ -1,8 +1,6 @@
-// Contact Form Scripts
-
 $(function() {
 
-    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+    $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -52,7 +50,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            });
+            })
         },
         filter: function() {
             return $(this).is(":visible");
