@@ -1,0 +1,54 @@
+
+.me{
+  position: fixed;
+  top: 0;
+  height: 100%;
+  padding: 50px 20px;
+}
+
+.img-rounded{
+  border-radius: 50%;
+}
+
+.me .icon{
+  width: auto;
+}
+
+.me .bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.me .btn{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.me .btn:hover{
+  background: rgba(0, 0, 0, .3);
+}
+
+.page-header{
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.card{
+  margin: 10px;
+}
+
+.card .card-link:hover{
+  background: rgba(0, 0, 0, .3);
+}
+
+.box{
+  position: absolute;
+  top: 0;
+}
+
+.box.box-right{
+  right: 0;
+}
