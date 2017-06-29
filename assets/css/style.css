@@ -52,3 +52,98 @@
 .box.box-right{
   right: 0;
 }
+
+.card{
+  margin: 10px;
+}
+.card .card-link{
+  padding: 10px;
+  margin: 0;
+  border-radius: 3px;
+}
+.card.bg-inverse .card-link{
+  color: rgba(255,255,255,.7);
+}
+.card.bg-inverse .card-link:hover{
+  color:#fff;
+}
+.card .card-link:hover{
+  background: rgba(0, 0, 0, .3);
+}
+.card .card-button{
+  color: #f9f9f9;
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+.card .card-button:hover{
+  background: rgba(0, 0, 0, .3);
+}
+
+@media (max-width: 768px) {
+  
+  body{
+    background: #292b2c;
+  }
+
+  .box > .container{
+    padding-bottom: 60px;
+  }
+
+  .card{
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.5);
+  }
+
+  .page-header{
+    display: block;
+    color: #eee;
+    margin-top: 8em;
+  }
+  
+  .info-text{
+    position: absolute;
+    top: 3em;
+    padding-left: 60px;
+    z-index: 999;
+  }
+  .info-text h1{
+    margin-left: -25px;
+    font-size: 2em;
+  }
+  .info-text .mail{
+    color: #555;
+    font-size: 1em;
+  }
+  .info-text .age,
+  .info-text .date{
+    display: none;
+  }
+
+  .me{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-bottom: 50%;
+  }
+
+  .me .icon{
+    width: 80px;
+  }
+  .me .bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background: #292b2c;
+  }
+  .me .bottom:hover,
+  .me .bottom:focus{
+    background: #222;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .info-text{
+    padding-left: 120px;
+  }
+}
