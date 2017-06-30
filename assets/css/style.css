@@ -85,18 +85,18 @@
     background: #292b2c;
   }
 
-  .box > .container{
-    padding-bottom: 60px;
+  .box > .container:last-child{
+    padding-bottom: 5em;
   }
 
   .card{
     box-shadow: 0 0 10px 1px rgba(0,0,0,.5);
   }
 
+  .page-header:first-child{margin-top: 8em;}
   .page-header{
     display: block;
     color: #eee;
-    margin-top: 8em;
   }
   
   .info-text{
@@ -122,7 +122,6 @@
     width: 100%;
     position: absolute;
     top: 0;
-    padding-bottom: 50%;
   }
 
   .me .icon{
@@ -134,6 +133,7 @@
     left: 0;
     z-index: 999;
     background: #292b2c;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.4);
   }
   .me .bottom:hover,
   .me .bottom:focus{
