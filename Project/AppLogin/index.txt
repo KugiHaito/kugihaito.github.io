@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="http://kugihaito.github.io/assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://github.com/KugiHaito/AppLogin/blob/master/src/img/icone.png?raw=true">
+	<title>AppLogin | Aplicação de Login e Cadastro</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header class="container">
+		<h1 class="display-3">AppLogin</h1> <p class="text-muted">Aplicação de Login e Cadastro, com a interface Kivy</p>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="card card-inverse col-md-7">
+				<img class="card-img" src="http://cloud.addictivetips.com/wp-content/uploads/2013/01/Dropbox-Login.jpg" alt="Card image">
+				<div class="card-img-overlay">
+				<!-- Vazio -->
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<ul class="list-group">
+					<li class="list-group-item"><b>Requisitos</b></li>
+					<li class="list-group-item">Python3 (Recomendado)</li>
+					<li class="list-group-item">PyMysql</li>
+					<li class="list-group-item">Kivy</li>
+					<li class="list-group-item">
+						<small class="text-muted">*requisitos para usabilidade do código fonte</small>
+					</li>
+				</ul>
+			</div>
+			<div class="box">
+				<div class="btn-group" role="group" aria-label="Basic example">
+				  <a href="#!" class="btn btn-lg btn-primary alert-dev">Window</a>
+				  <a href="#!" class="btn btn-lg btn-secondary disabled">Android</a>
+				  <a href="https://github.com/KugiHaito/AppLogin/archive/master.zip" class="btn btn-lg btn-secondary">Source Code</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			$(".alert-dev").click(function(event) {
+				alert("Ainda estamos preparando o Pacote Exexutável");
+			});
+		});
+	</script>
+</body>
+</html>

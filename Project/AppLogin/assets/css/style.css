@@ -1,0 +1,60 @@
+body{
+	background: #444;
+}
+
+header, section{
+	padding: 10px 0;
+}
+
+h1,
+.list-group-item
+{
+	color: white;
+	background: #444;
+	border:none;
+	padding: 5px 20px;
+}
+
+.list-group{
+	width: 100%;
+	text-align: justify;
+}
+.list-group-item{
+	font-size: 1.5em;
+}
+
+header h1{
+	font-size: 5em;
+	font-weight: lighter;
+}
+header p{
+	font-size: 2.5em;
+	font-weight: lighter;
+}
+
+div.btn-group{
+	width: 100%;
+	border: 1px solid #337ab7;
+	border-radius: 0;
+}
+div.btn-group a{
+	width: 30%;
+	border: none;
+	border-radius: 0;
+}
+
+div.btn-group a:hover,
+div.btn-group a:focus{
+	color: #eee;
+}
+
+@media  (max-width: 500px){
+	header{
+		text-align: center;
+	}
+	header p{
+		text-align: center;
+		font-size: 1.5em;
+		margin: 0 10px;
+	}
+}
